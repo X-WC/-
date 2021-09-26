@@ -3,10 +3,20 @@ import App from './App.vue'
 import store from './store'
 // 配置路由
 import router from './router'
+
 // 导入字体样式
-import './assets/fonts/iconfont.css'
+import './assets/styles/fonts/iconfont.css'
 // 导入全局样式
 import './assets/styles/index.less'
+
+// 导入Vant组件库
+import Vant from 'vant'
+
+// 加载 Vant 全局样式
+import 'vant/lib/index.css'
+
+// 注册使用 vant 组件库
+Vue.use(Vant)
 
 Vue.config.productionTip = false
 

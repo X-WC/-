@@ -1,11 +1,8 @@
 <template>
   <div id="app">
     <!-- 路由的出口 -->
-    <router-view />
-    <h1>123</h1>
-    <div>
-      <i class="iconfont icon-dianzan">123</i>
-    </div>
+    <router-view></router-view>
+    <h1>黑马头条</h1>
   </div>
 </template>
 
@@ -18,5 +15,4 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
 </style>
